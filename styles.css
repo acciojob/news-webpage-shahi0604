@@ -24,6 +24,8 @@ body {
 .latest-news-section, .main-article, .pictorial-news-section {
     background-color: white;
     padding: 20px;
+	 justify-content: center;
+	 text-align: center;
     border-radius: 10px;
     flex: 1; /* Makes all cards equal width */
     max-width: 350px;
@@ -32,6 +34,7 @@ body {
 
 /* Style for the images in the 3rd card */
 .pictorial-news-section img {
+	
     width: 100%;
     margin-bottom: 10px;
     border-radius: 5px;
